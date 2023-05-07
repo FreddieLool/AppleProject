@@ -32,7 +32,6 @@ public class AppleSpawner : MonoBehaviour
     }
     IEnumerator AppleThrowing()
     {
-
         while (true)
         {
             int randomPosition = Random.Range(1, 4);

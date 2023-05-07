@@ -9,8 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 336209814778687788}
+  - component: {fileID: 4623598585590361582}
   - component: {fileID: 3676536668035038857}
   - component: {fileID: 1504582531544894019}
+  - component: {fileID: 63581645867952495}
   m_Layer: 0
   m_Name: Apple_01
   m_TagString: Untagged
@@ -33,6 +35,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4623598585590361582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144377917163334550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce968df8836699b42bd15289c1b5b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appleMovementSpeed: 0
 --- !u!33 &3676536668035038857
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -83,3 +98,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &63581645867952495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144377917163334550}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd2baa97101ef04ebb97ca232b64dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shattered_Apple: {fileID: 5520519898413635439, guid: f90e44c469080c445a93eba8bc4d1214, type: 3}
